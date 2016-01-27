@@ -139,6 +139,11 @@
  *   Whether the content view "snaps" to each page (YES), or if the scroll is continous (NO). Default is YES. **/
 @property (nonatomic) BOOL pagingEnabled;
 
+/**  @property scrollLocked
+ *   @brief Whether the scrollView has scroll enabled. Set this to YES if you want to lock scrolling on on particular viewController.
+ *   Whether the scrollView has scroll enabled (YES), or not (NO). Default is NO. **/
+@property (nonatomic) BOOL scrollLocked;
+
 /**  @property zoomOutAnimationDisabled
  *   @brief Whether the "zoom out" effect that happens as you scroll from page to page should be disabled. Default is NO.
  *   Whether the "zoom out" effect that happens as you scroll from page to page should be disabled. Default is NO **/

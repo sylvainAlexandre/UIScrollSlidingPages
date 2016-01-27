@@ -73,6 +73,7 @@
         self.disableUIPageControl = NO;
         self.initialPageNumber = 0;
         self.pagingEnabled = YES;
+        self.scrollLocked = NO;
         self.zoomOutAnimationDisabled = NO;
         self.hideStatusBarWhenScrolling = NO;
     }
@@ -647,6 +648,13 @@
     _pagingEnabled = pagingEnabled;
     if (bottomScrollView != nil){
         bottomScrollView.pagingEnabled = pagingEnabled;
+    }
+}
+
+-(void)setScrollLocked:(BOOL)scrollLocked{
+    _scrollLocked = scrollLocked;
+    if (bottomScrollView != nil){
+        bottomScrollView.scrollEnabled = !scrollLocked;
     }
 }
 
