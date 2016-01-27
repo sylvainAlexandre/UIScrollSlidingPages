@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5CA73AC97EC6A50115EE0DBA'
+               BlueprintIdentifier = '55ECFC244651EDC8E8727E7B'
                BlueprintName = 'TTScrollSlidingPages'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libTTScrollSlidingPages.a'>

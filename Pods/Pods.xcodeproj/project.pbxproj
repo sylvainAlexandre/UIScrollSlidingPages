@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		045DFA3A8207123394475A15E8621189 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		099D970EDB929391B66C47114A95766E /* TTUIScrollViewSlidingPages.h in Headers */ = {isa = PBXBuildFile; fileRef = F4544133B670237B2918994E6A9C1D0E /* TTUIScrollViewSlidingPages.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		183828C03AE634EF9506F8169FC7C490 /* TTScrollSlidingPages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 038E5D0F4EC67B01CB72B6AC2FE0351B /* TTScrollSlidingPages-dummy.m */; };
-		3ABC8C840C1B1F992370E75C8DDD61AC /* TTSlidingPageTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = F799AABA0D7E55C9ABEC0C3A1A511428 /* TTSlidingPageTitle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AF1D91CAE7D5FF707667E1166B21330 /* TTSlidingPageTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = F799AABA0D7E55C9ABEC0C3A1A511428 /* TTSlidingPageTitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34CEC6A6A6DAE6D345F71D4DF660C2D6 /* TTSlidingPagesDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1527C2A153A6827FC5FB6173294E4E83 /* TTSlidingPagesDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3539CA84B84398B2A6F7AE8274FA982D /* TTSlidingPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCD7023463A58EC1D5F71A7A19E5FB4 /* TTSlidingPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		578BD2AFFADD6C56F042D9BB5FFFFE9C /* TTScrollViewWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 17642487B54749960C939AF67912C58A /* TTScrollViewWrapper.m */; };
-		5CE078B424C4A88CD36C6BB5DD5CD239 /* TTSlidingPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCD7023463A58EC1D5F71A7A19E5FB4 /* TTSlidingPage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		63C7FE08E44970ED29B74865B63B3D8B /* TTSlidingPagesDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1527C2A153A6827FC5FB6173294E4E83 /* TTSlidingPagesDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		66C0DB0BC8EBB7853DC1102CC74A6549 /* TTUIScrollViewSlidingPages.h in Headers */ = {isa = PBXBuildFile; fileRef = F4544133B670237B2918994E6A9C1D0E /* TTUIScrollViewSlidingPages.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7644FFEB8DF562301294763683B891C6 /* TTSlidingPage.m in Sources */ = {isa = PBXBuildFile; fileRef = CF06C8F81D7FBBD6EBED1CE83DABA2FB /* TTSlidingPage.m */; };
 		773E94D2C874968B6A1D6981CCE4A4A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		7AA2816CD01BAD34FFB1BE4096DA05F1 /* TTSlidingPageDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 318EC60E82B1208E05B6F831F43E13BC /* TTSlidingPageDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		810595589F6D998076ABADAAD73E76F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		938709C860DC279C548F8F1C32C1F631 /* TTScrollViewWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E32FE818535841C071E15E3CB022EC9 /* TTScrollViewWrapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A5ED453C75F7A05F2BD45B047BA30185 /* TTSlidingPageTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A3441ADF856CFF67D1EB4DD9F9529 /* TTSlidingPageTitle.m */; };
 		B77C7E049662F5D0120D598D69B9857C /* TTBlackTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D050E50BB4566F6C0B13065AD7E72B7 /* TTBlackTriangle.m */; };
-		CAD118A3A4B8A0E2C9304530D076C2B3 /* TTBlackTriangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 71BD004244A22CE6B88FCA88448DBD74 /* TTBlackTriangle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1F145D2BC2B4BFE31EC7A6A6A395BF7 /* TTSlidingPageDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 318EC60E82B1208E05B6F831F43E13BC /* TTSlidingPageDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D696F57A6809CE206FB94ECDC8698020 /* TTBlackTriangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 71BD004244A22CE6B88FCA88448DBD74 /* TTBlackTriangle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF8A8F216AEC7D7D445094F915DDD7D7 /* TTScrollSlidingPagesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 05AB1653E0521975801762F2127B2B1B /* TTScrollSlidingPagesController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3DD2D0444C69D89F09DBB59CBC92474 /* TTScrollViewWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E32FE818535841C071E15E3CB022EC9 /* TTScrollViewWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3F90105FE7807268BC6AF6DDC3575E6 /* TTScrollSlidingPagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8228644528A48AF8EA8B7EC3F0FB1796 /* TTScrollSlidingPagesController.m */; };
 /* End PBXBuildFile section */
 
@@ -209,14 +209,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAD118A3A4B8A0E2C9304530D076C2B3 /* TTBlackTriangle.h in Headers */,
+				D696F57A6809CE206FB94ECDC8698020 /* TTBlackTriangle.h in Headers */,
 				DF8A8F216AEC7D7D445094F915DDD7D7 /* TTScrollSlidingPagesController.h in Headers */,
-				938709C860DC279C548F8F1C32C1F631 /* TTScrollViewWrapper.h in Headers */,
-				5CE078B424C4A88CD36C6BB5DD5CD239 /* TTSlidingPage.h in Headers */,
-				7AA2816CD01BAD34FFB1BE4096DA05F1 /* TTSlidingPageDelegate.h in Headers */,
-				63C7FE08E44970ED29B74865B63B3D8B /* TTSlidingPagesDataSource.h in Headers */,
-				3ABC8C840C1B1F992370E75C8DDD61AC /* TTSlidingPageTitle.h in Headers */,
-				66C0DB0BC8EBB7853DC1102CC74A6549 /* TTUIScrollViewSlidingPages.h in Headers */,
+				E3DD2D0444C69D89F09DBB59CBC92474 /* TTScrollViewWrapper.h in Headers */,
+				3539CA84B84398B2A6F7AE8274FA982D /* TTSlidingPage.h in Headers */,
+				D1F145D2BC2B4BFE31EC7A6A6A395BF7 /* TTSlidingPageDelegate.h in Headers */,
+				34CEC6A6A6DAE6D345F71D4DF660C2D6 /* TTSlidingPagesDataSource.h in Headers */,
+				2AF1D91CAE7D5FF707667E1166B21330 /* TTSlidingPageTitle.h in Headers */,
+				099D970EDB929391B66C47114A95766E /* TTUIScrollViewSlidingPages.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

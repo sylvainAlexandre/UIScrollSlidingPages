@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
 
 	# Sources
 	s.source_files = 'UIScrollViewSlidingPages/Source/*'
-    s.public_header_files = "UIScrollViewSlidingPages/Source/TTScrollSlidingPagesController.h"
+    s.public_header_files = "UIScrollViewSlidingPages/Source/TTScrollSlidingPagesController.h, UIScrollViewSlidingPages/Source/TTSlidingPageDelegate.h, UIScrollViewSlidingPages/Source/TTSlidingPagesDataSource.h"
 end

@@ -20,5 +20,5 @@
     "ios": "6.0"
   },
   "source_files": "UIScrollViewSlidingPages/Source/*",
-  "public_header_files": "UIScrollViewSlidingPages/Source/TTScrollSlidingPagesController.h"
+  "public_header_files": "UIScrollViewSlidingPages/Source/TTScrollSlidingPagesController.h, UIScrollViewSlidingPages/Source/TTSlidingPageDelegate.h, UIScrollViewSlidingPages/Source/TTSlidingPagesDataSource.h"
 }
