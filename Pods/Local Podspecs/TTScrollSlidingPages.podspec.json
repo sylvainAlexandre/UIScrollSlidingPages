@@ -1,0 +1,24 @@
+{
+  "name": "TTScrollSlidingPages",
+  "version": "1.4.0",
+  "summary": "TTScrollSlidingPages allows you to add multiple view controllers and have them scroll horizontally.",
+  "description": "UIScrollSlidingPages is the project name for the TTScrollSlidingPagesController UIViewController. The control is a horizontal paged scroller complete with a header area, the standard \"page dots\" showing the current page, and an UI effect as you scroll between pages.",
+  "source": {
+    "git": "https://github.com/TomThorpe/UIScrollSlidingPages.git",
+    "tag": "1.4.0"
+  },
+  "authors": {
+    "Niji iOS": "devs-ios@niji.fr"
+  },
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE.txt"
+  },
+  "homepage": "https://github.com/TomThorpe/UIScrollSlidingPages",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source_files": "UIScrollViewSlidingPages/Source/*",
+  "public_header_files": "UIScrollViewSlidingPages/Source/TTScrollSlidingPagesController.h, UIScrollViewSlidingPages/Source/TTSlidingPageDelegate.h, UIScrollViewSlidingPages/Source/TTSlidingPagesDataSource.h"
+}

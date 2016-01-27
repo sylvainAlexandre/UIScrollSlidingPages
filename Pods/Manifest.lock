@@ -1,0 +1,14 @@
+PODS:
+  - TTScrollSlidingPages (1.4.0)
+
+DEPENDENCIES:
+  - TTScrollSlidingPages (from `.`)
+
+EXTERNAL SOURCES:
+  TTScrollSlidingPages:
+    :path: .
+
+SPEC CHECKSUMS:
+  TTScrollSlidingPages: 5442d1d4db872c256f95e78d57908407c6d1f579
+
+COCOAPODS: 0.39.0
